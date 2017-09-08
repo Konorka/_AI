@@ -1,0 +1,557 @@
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SpaceBattle.Common.GameLevel.TakePlanets(Player p) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 222
+   at SpaceBattle.Common.GameLevel.SetPlayerNumbers() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 205
+   at SpaceBattle.Common.GameLevel.Start() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 251
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 250
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 14:51:20 <<< 
+
+
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SpaceBattle.Common.GameLevel.TakePlanets(Player p) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 222
+   at SpaceBattle.Common.GameLevel.SetPlayerNumbers() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 205
+   at SpaceBattle.Common.GameLevel.Start() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 251
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 250
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 19:56:10 <<< 
+
+
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SpaceBattle.Common.GameLevel.TakePlanets(Player p) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 231
+   at SpaceBattle.Common.GameLevel.SetPlayerNumbers() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 205
+   at SpaceBattle.Common.GameLevel.Start() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 251
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 250
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 22:41:00 <<< 
+
+
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SpaceBattle.Common.GameLevel.TakePlanets(Player p) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 222
+   at SpaceBattle.Common.GameLevel.SetPlayerNumbers() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 205
+   at SpaceBattle.Common.GameLevel.Start() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 251
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 250
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 23:31:28 <<< 
+
+
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at AIClient.Database.get_MotherPlanet() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\AIClient\Planetary HQ\Database.cs:line 40
+   at AIClient.PlanetaryHQ.ScoutHQ.sc_1_Way() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\AIClient\Planetary HQ\ScoutHQ.cs:line 148
+   at AIClient.PlanetaryHQ.ScoutHQ..ctor() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\AIClient\Planetary HQ\ScoutHQ.cs:line 18
+   at AIClient.GeriMainClient.GiveMapSizeToClient(Int32 size_x, Int32 size_y) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\AIClient\AIMainClient.cs:line 40
+   at SpaceBattle.Common.GameLevel.AddPlayer(Player newPlayer) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 244
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 248
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 10:27:01 <<< 
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AIClient.PlanetaryHQ.ScoutHQ.sc_1_Way() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\AIClient\Planetary HQ\ScoutHQ.cs:line 148
+   at AIClient.PlanetaryHQ.ScoutHQ..ctor() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\AIClient\Planetary HQ\ScoutHQ.cs:line 18
+   at AIClient.GeriMainClient.GiveMapSizeToClient(Int32 size_x, Int32 size_y) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\AIClient\AIMainClient.cs:line 40
+   at SpaceBattle.Common.GameLevel.AddPlayer(Player newPlayer) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 244
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 248
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 10:28:27 <<< 
+
+
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SpaceBattle.Common.GameLevel.TakePlanets(Player p) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 222
+   at SpaceBattle.Common.GameLevel.SetPlayerNumbers() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 205
+   at SpaceBattle.Common.GameLevel.Start() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 251
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 250
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 11:02:54 <<< 
+
+
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SpaceBattle.Common.GameLevel.TakePlanets(Player p) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 222
+   at SpaceBattle.Common.GameLevel.SetPlayerNumbers() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 205
+   at SpaceBattle.Common.GameLevel.Start() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 251
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 250
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 11:47:28 <<< 
+
+
+
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at SpaceBattle_Server.ServerForm.LoadDLL() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 77
+   at SpaceBattle_Server.ServerForm..ctor() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 61
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 11:52:37 <<< 
+
+
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SpaceBattle.Common.GameLevel.TakePlanets(Player p) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 222
+   at SpaceBattle.Common.GameLevel.SetPlayerNumbers() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 205
+   at SpaceBattle.Common.GameLevel.Start() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 251
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 250
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 12:22:34 <<< 
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GeriClient.PlanetaryHQ.ScoutHQ.CheckPosition() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\GeriClient\Planetary HQ\ScoutHQ.cs:line 106
+   at GeriClient.PlanetaryHQ.ScoutHQ..ctor() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\GeriClient\Planetary HQ\ScoutHQ.cs:line 59
+   at GeriClient.GeriMainClient.GiveMapSizeToClient(Int32 size_x, Int32 size_y) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\GeriClient\GeriMainClient.cs:line 41
+   at SpaceBattle.Common.GameLevel.AddPlayer(Player newPlayer) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 244
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 248
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 22:03:36 <<< 
+
+
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SpaceBattle.Common.GameLevel.TakePlanets(Player p) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 222
+   at SpaceBattle.Common.GameLevel.SetPlayerNumbers() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 205
+   at SpaceBattle.Common.GameLevel.Start() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 251
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 250
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 21:06:49 <<< 
+
+
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SpaceBattle.Common.GameLevel.TakePlanets(Player p) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 231
+   at SpaceBattle.Common.GameLevel.SetPlayerNumbers() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 205
+   at SpaceBattle.Common.GameLevel.Start() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 251
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 250
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 21:11:13 <<< 
+
+
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SpaceBattle.Common.GameLevel.TakePlanets(Player p) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 231
+   at SpaceBattle.Common.GameLevel.SetPlayerNumbers() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 205
+   at SpaceBattle.Common.GameLevel.Start() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs:line 251
+   at SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs:line 250
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 21:23:47 <<< 
+
+
+
+System.NotSupportedException: An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See http://go.microsoft.com/fwlink/?LinkId=155569 for more information.
+   at System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at SpaceBattle_Server.ServerForm.LoadDLL() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\ServerForm.cs:line 71
+   at SpaceBattle_Server.ServerForm..ctor() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\ServerForm.cs:line 61
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 7:36:29 <<< 
+
+
+
+System.NotSupportedException: An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See http://go.microsoft.com/fwlink/?LinkId=155569 for more information.
+   at System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at SpaceBattle_Server.ServerForm.LoadDLL() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\ServerForm.cs:line 71
+   at SpaceBattle_Server.ServerForm..ctor() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\ServerForm.cs:line 61
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 10:05:46 <<< 
+
+
+
+System.NotSupportedException: An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See http://go.microsoft.com/fwlink/?LinkId=155569 for more information.
+   at System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at SpaceBattle_Server.ServerForm.LoadDLL() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\ServerForm.cs:line 71
+   at SpaceBattle_Server.ServerForm..ctor() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\ServerForm.cs:line 61
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 21:44:40 <<< 
+
+
+
+System.NotSupportedException: An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See http://go.microsoft.com/fwlink/?LinkId=155569 for more information.
+   at System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at SpaceBattle_Server.ServerForm.LoadDLL() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\ServerForm.cs:line 71
+   at SpaceBattle_Server.ServerForm..ctor() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\ServerForm.cs:line 61
+   at SpaceBattle_Server.Program.Main() in c:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+ >>> 21:45:01 <<< 
+
+
+

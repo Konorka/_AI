@@ -1,0 +1,115 @@
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\bin\Debug\SpaceBattle_Server.exe.config
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\bin\Debug\SpaceBattle_Server.exe
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\bin\Debug\SpaceBattle_Server.pdb
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\bin\Debug\SpaceBattleCommon.dll
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\bin\Debug\SpaceBattle_AI.dll
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\bin\Debug\SpaceBattleCommon.pdb
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\bin\Debug\SpaceBattle_AI.pdb
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\obj\Debug\SpaceBattleServer.csprojResolveAssemblyReference.cache
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\obj\Debug\SpaceBattle_Server.ServerForm.resources
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\obj\Debug\SpaceBattle_Server.Properties.Resources.resources
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\obj\Debug\SpaceBattleServer.csproj.GenerateResource.Cache
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\obj\Debug\SpaceBattle_Server.exe
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\obj\Debug\SpaceBattle_Server.pdb
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\bin\Debug\SpaceBattleAnon.dll
+c:\anon\programming\GeekDay_SpaceBattle_Playoffs\SpaceBattle_Server\bin\Debug\SpaceBattleAnon.pdb
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\bin\Debug\SpaceBattle_Server.exe.config
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\obj\Debug\SpaceBattle_Server.exe
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\obj\Debug\SpaceBattle_Server.pdb
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\bin\Debug\SpaceBattle_Server.exe
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\bin\Debug\SpaceBattle_Server.pdb
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\bin\Debug\SpaceBattleCommon.dll
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\bin\Debug\SpaceBattleCommon.pdb
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\obj\Debug\SpaceBattleServer.csprojResolveAssemblyReference.cache
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\obj\Debug\SpaceBattle_Server.ServerForm.resources
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\obj\Debug\SpaceBattle_Server.Properties.Resources.resources
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattle_Server\obj\Debug\SpaceBattleServer.csproj.GenerateResource.Cache
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe.config
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.exe
+c:\anon\programming\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe.config
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.exe
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\GeriClient.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\GeriClient.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattleServer.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.ServerForm.resources
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.Properties.Resources.resources
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattleServer.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\AIClient.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\AIClient.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe.config
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\SpaceBattle_Server.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\AIClient.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\GeriClient.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\AIClient.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\GeriClient.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattleServer.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattle_Server.ServerForm.resources
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattle_Server.Properties.Resources.resources
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattleServer.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattle_Server.exe
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattle_Server.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe.config
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattle_Server.exe
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattle_Server.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\SpaceBattle_Server.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\AIClient.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\GeriClient.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\AIClient.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\GeriClient.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattleServer.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattle_Server.ServerForm.resources
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattle_Server.Properties.Resources.resources
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\SpaceBattleServer\obj\Debug\SpaceBattleServer.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe.config
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.exe
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\AIClient.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\GeriClient.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\AIClient.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\GeriClient.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattleServer.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.ServerForm.resources
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.Properties.Resources.resources
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattleServer.csproj.GenerateResource.Cache
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattleServer.csprojResolveAssemblyReference.cache
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.ServerForm.resources
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.Properties.Resources.resources
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattleServer.csproj.GenerateResource.Cache
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe.config
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.pdb
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\ClassLibrary1.dll
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\ClassLibrary1.pdb
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattleCommon.pdb
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll.config
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.exe
+D:\tmp\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.pdb
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe.config
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattle_Server.pdb
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll.config
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattleServer.csprojResolveAssemblyReference.cache
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.ServerForm.resources
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.Properties.Resources.resources
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattleServer.csproj.GenerateResource.Cache
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.exe
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleServer\obj\Debug\SpaceBattle_Server.pdb
