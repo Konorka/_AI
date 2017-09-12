@@ -102,7 +102,7 @@ namespace SpaceBattle.Common
         public int FutureOwnerId { get; set; }
         public float IncTime { get; set; }
         
-
+        
         public Planet(Player newPlayer, float newX, float newY, int newNum, int newInc, int newOwner, int MoveInterval)
             : base(newPlayer, newX, newY, newNum)
         {
@@ -113,7 +113,7 @@ namespace SpaceBattle.Common
         }
 
 
-
+       
         public override void OneTick()
         {
             if (ItemPlayer != null)
@@ -122,7 +122,7 @@ namespace SpaceBattle.Common
                     IncTime &&
                     NumberOfUnits < 99)
                 {
-                    ChangeNumberOfUnits(5);
+                    ChangeNumberOfUnits(1);
                     lastInc = DateTime.Now;
                 }
             }
