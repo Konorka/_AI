@@ -1,0 +1,35 @@
+N:\My programs\progik\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\GeriClient.dll
+N:\My programs\progik\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\GeriClient.pdb
+N:\My programs\progik\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.dll
+N:\My programs\progik\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.pdb
+N:\My programs\progik\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.dll.config
+N:\My programs\progik\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\ExampleClient.csprojResolveAssemblyReference.cache
+N:\My programs\progik\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\ExampleClient.csproj.CoreCompileInputs.cache
+N:\My programs\progik\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\GeriClient.dll
+N:\My programs\progik\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\GeriClient.pdb
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\ExampleClient.csprojResolveAssemblyReference.cache
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\ExampleClient.csproj.CoreCompileInputs.cache
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\GeriClient.dll
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\GeriClient.pdb
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\GeriClient.dll
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\GeriClient.pdb
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.dll
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.dll.config
+E:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\GeriClient.dll
+E:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\GeriClient.pdb
+E:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.dll
+E:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.pdb
+E:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.dll.config
+E:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\ExampleClient.csproj.CoreCompileInputs.cache
+E:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\GeriClient.dll
+E:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\GeriClient.pdb
+H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\GeriClient.dll
+H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\GeriClient.pdb
+H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.dll
+H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.pdb
+H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\bin\Debug\SpaceBattleCommon.dll.config
+H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\ExampleClient.csprojResolveAssemblyReference.cache
+H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\ExampleClient.csproj.CoreCompileInputs.cache
+H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\GeriClient.dll
+H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\GeriClient.pdb

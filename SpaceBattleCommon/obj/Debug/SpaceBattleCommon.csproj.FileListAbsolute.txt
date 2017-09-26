@@ -39,3 +39,11 @@ C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleCommon\bin\Debug\Sp
 C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.csprojResolveAssemblyReference.cache
 C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.dll
 C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.pdb
+C:\Users\konor\Desktop\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.csproj.CoreCompileInputs.cache
+H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\bin\Debug\SpaceBattleCommon.dll.config
+H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\bin\Debug\SpaceBattleCommon.dll
+H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\bin\Debug\SpaceBattleCommon.pdb
+H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.csprojResolveAssemblyReference.cache
+H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.csproj.CoreCompileInputs.cache
+H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.dll
+H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.pdb

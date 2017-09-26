@@ -10,33 +10,67 @@ namespace SomeNewProject
 {
     public class SomeAI : IBattleClient
     {
-        public string ClientName => throw new NotImplementedException();
+        GameItemDescriptor _ownPlanet;
+        GameItemDescriptor _ship;
 
-        public Brush ClientBrush => throw new NotImplementedException();
+        public string ClientName
+        {
+            get { return "SomeAI"; }
+        }
+
+        public Brush ClientBrush
+        {
+            get { return Brushes.Green; }
+        }
 
         public List<BattleCommand> GetCommandsFromClient()
         {
-            throw new NotImplementedException();
+            
+            if (_ownPlanet == null)
+                return new List<BattleCommand>();
+            if (_ship == null)
+                return new List<BattleCommand> { new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 } };
+
+            //we have a unit to move with
+            int help = 0;
+            if ((_ship.PosX != 0 || _ship.PosY != 0) && help==0)
+            {
+                help++;
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 2 } };    
+            }
+            if (_ship.PosX ==0 || _ship.PosY==0)
+            {
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 20, TargetY = 20 } };
+            }
+            
+
+            return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 2 } };
         }
 
         public void GiveGameItemsToClient(List<GameItemDescriptor> gameItems)
         {
-            throw new NotImplementedException();
+            if (_ownPlanet == null)
+            {
+                _ownPlanet = gameItems.Find(x => x.PlayerName == ClientName); //find base planet
+            }
+            else
+            {
+                _ship = gameItems.Find(x => x.PlayerName == ClientName && x.ItemType == "Ship"); //find our (only) unit
+            }
         }
 
         public void GiveMapSizeToClient(int sizeX, int sizeY)
         {
-            throw new NotImplementedException();
         }
 
         public void GiveMessageToClient(string msg)
         {
-            throw new NotImplementedException();
+            
         }
 
         public void GiveRemainingTimeToClient(int seconds)
         {
-            throw new NotImplementedException();
+           
         }
     }
 }

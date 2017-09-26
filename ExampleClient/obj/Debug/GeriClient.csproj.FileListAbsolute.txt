@@ -1,0 +1,35 @@
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\GeriClient.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\GeriClient.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\SpaceBattleCommon.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\GeriClient\obj\Debug\GeriClient.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\GeriClient\obj\Debug\GeriClient.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public\GeriClient\obj\Debug\GeriClient.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\GeriClient\bin\Debug\GeriClient.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\GeriClient\bin\Debug\GeriClient.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\GeriClient\bin\Debug\SpaceBattleCommon.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\GeriClient\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\GeriClient\obj\Debug\GeriClient.dll
+C:\Users\user\Desktop\GeekDay_SpaceBattle_Public - Copy\GeriClient\obj\Debug\GeriClient.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\GeriClient\bin\Debug\GeriClient.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\GeriClient\bin\Debug\GeriClient.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\GeriClient\bin\Debug\SpaceBattleCommon.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\GeriClient\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\GeriClient\obj\Debug\GeriClient.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\GeriClient\obj\Debug\GeriClient.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public - Copy\GeriClient\obj\Debug\GeriClient.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\GeriClient.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\GeriClient.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\SpaceBattleCommon.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\GeriClient\obj\Debug\GeriClient.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\GeriClient\obj\Debug\GeriClient.dll
+C:\Users\user\Desktop\minden\progik\GeekDay_SpaceBattle_Public\GeriClient\obj\Debug\GeriClient.pdb
+N:\My programs\progik\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\GeriClient.dll
+N:\My programs\progik\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\GeriClient.pdb
+N:\My programs\progik\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\SpaceBattleCommon.dll
+N:\My programs\progik\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\SpaceBattleCommon.pdb
+N:\My programs\progik\GeekDay_SpaceBattle_Public\GeriClient\bin\Debug\SpaceBattleCommon.dll.config
+N:\My programs\progik\GeekDay_SpaceBattle_Public\GeriClient\obj\Debug\GeriClient.csprojResolveAssemblyReference.cache
+N:\My programs\progik\GeekDay_SpaceBattle_Public\GeriClient\obj\Debug\GeriClient.dll
+N:\My programs\progik\GeekDay_SpaceBattle_Public\GeriClient\obj\Debug\GeriClient.pdb

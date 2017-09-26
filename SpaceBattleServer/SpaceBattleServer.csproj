@@ -86,9 +86,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ExampleAi.csproj">
-      <Project>{17eb335e-56ea-4a27-8858-1fa5eb1280d9}</Project>
-      <Name>ExampleAi</Name>
+    <ProjectReference Include="..\ExampleClient\ExampleClient.csproj">
+      <Project>{23a43205-c1b6-43a1-b803-1f1d4d37ca2d}</Project>
+      <Name>ExampleClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SomeNewProject\SomeNewProject.csproj">
+      <Project>{36a5d704-9d86-43dd-b7a1-3728377836ff}</Project>
+      <Name>SomeNewProject</Name>
     </ProjectReference>
     <ProjectReference Include="..\SpaceBattleCommon\SpaceBattleCommon.csproj">
       <Project>{eb22beda-b283-4051-8798-ae73cfa54e04}</Project>

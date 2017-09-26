@@ -555,3 +555,72 @@ System.NotSupportedException: An attempt was made to load an assembly from a net
 
 
 
+System.NotImplementedException: A metódus vagy művelet nincs megvalósítva.
+   a következő helyen: SomeNewProject.SomeAI.get_ClientName() hely: E:\Új mappa\GeekDay_SpaceBattle_Public\SomeNewProject\SomeAI.cs, sor: 13
+   a következő helyen: SpaceBattle_Server.ServerForm.LoadDLL() hely: E:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs, sor: 77
+   a következő helyen: SpaceBattle_Server.ServerForm..ctor() hely: E:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs, sor: 61
+   a következő helyen: SpaceBattle_Server.Program.Main() hely: E:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs, sor: 19
+ >>> 19:14:36 <<< 
+
+
+
+System.ArgumentException: Azonos kulccsal rendelkező elem már hozzá lett adva.
+   a következő helyen: System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   a következő helyen: System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   a következő helyen: System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   a következő helyen: SpaceBattle_Server.ServerForm.LoadDLL() hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs, sor: 77
+   a következő helyen: SpaceBattle_Server.ServerForm..ctor() hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs, sor: 61
+   a következő helyen: SpaceBattle_Server.Program.Main() hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs, sor: 19
+ >>> 14:35:31 <<< 
+
+
+
+System.NotImplementedException: A metódus vagy művelet nincs megvalósítva.
+   a következő helyen: SomeNewProject.SomeAI.GiveMapSizeToClient(Int32 sizeX, Int32 sizeY) hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SomeNewProject\SomeAI.cs, sor: 34
+   a következő helyen: SpaceBattle.Common.GameLevel.AddPlayer(Player newPlayer) hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs, sor: 244
+   a következő helyen: SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs, sor: 248
+   a következő helyen: System.Windows.Forms.Control.OnClick(EventArgs e)
+   a következő helyen: System.Windows.Forms.Button.OnClick(EventArgs e)
+   a következő helyen: System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   a következő helyen: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   a következő helyen: System.Windows.Forms.Control.WndProc(Message& m)
+   a következő helyen: System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   a következő helyen: System.Windows.Forms.Button.WndProc(Message& m)
+   a következő helyen: System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   a következő helyen: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   a következő helyen: System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   a következő helyen: System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   a következő helyen: System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   a következő helyen: System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   a következő helyen: System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   a következő helyen: System.Windows.Forms.Application.Run(Form mainForm)
+   a következő helyen: SpaceBattle_Server.Program.Main() hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs, sor: 19
+ >>> 14:36:04 <<< 
+
+
+
+System.NotImplementedException: A metódus vagy művelet nincs megvalósítva.
+   a következő helyen: SomeNewProject.SomeAI.GiveMessageToClient(String msg) hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SomeNewProject\SomeAI.cs, sor: 42
+   a következő helyen: SpaceBattle.Common.GameLevel.OnSystemMessage(String what) hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs, sor: 63
+   a következő helyen: SpaceBattle.Common.GameLevel.Start() hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\GameLevel.cs, sor: 255
+   a következő helyen: SpaceBattle_Server.ServerForm.Start_Click(Object sender, EventArgs e) hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\ServerForm.cs, sor: 250
+   a következő helyen: System.Windows.Forms.Control.OnClick(EventArgs e)
+   a következő helyen: System.Windows.Forms.Button.OnClick(EventArgs e)
+   a következő helyen: System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   a következő helyen: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   a következő helyen: System.Windows.Forms.Control.WndProc(Message& m)
+   a következő helyen: System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   a következő helyen: System.Windows.Forms.Button.WndProc(Message& m)
+   a következő helyen: System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   a következő helyen: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   a következő helyen: System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   a következő helyen: System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   a következő helyen: System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   a következő helyen: System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   a következő helyen: System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   a következő helyen: System.Windows.Forms.Application.Run(Form mainForm)
+   a következő helyen: SpaceBattle_Server.Program.Main() hely: H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleServer\Program.cs, sor: 19
+ >>> 14:37:19 <<< 
+
+
+

@@ -3703,15 +3703,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\balin\\.nuget\\packages\\": {}
+    "C:\\Users\\konor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\tmp\\GeekDay_SpaceBattle_Public\\ExampleAi\\ExampleAi.csproj",
+      "projectUniqueName": "C:\\Users\\konor\\Desktop\\GeekDay_SpaceBattle_Public\\ExampleAi\\ExampleAi.csproj",
       "projectName": "ExampleAi",
-      "projectPath": "D:\\tmp\\GeekDay_SpaceBattle_Public\\ExampleAi\\ExampleAi.csproj",
-      "outputPath": "D:\\tmp\\GeekDay_SpaceBattle_Public\\ExampleAi\\obj\\",
+      "projectPath": "C:\\Users\\konor\\Desktop\\GeekDay_SpaceBattle_Public\\ExampleAi\\ExampleAi.csproj",
+      "outputPath": "C:\\Users\\konor\\Desktop\\GeekDay_SpaceBattle_Public\\ExampleAi\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.4"
