@@ -12,6 +12,7 @@ namespace SomeNewProject
     {
         GameItemDescriptor _ownPlanet;
         GameItemDescriptor _ship;
+        GameItemDescriptor _ship2;
 
         public string ClientName
         {
@@ -30,14 +31,22 @@ namespace SomeNewProject
                 return new List<BattleCommand>();
             if (_ship == null)
                 return new List<BattleCommand> { new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 } };
-
+           
             //we have a unit to move with
             int help = 0;
-            if ((_ship.PosX != 0 || _ship.PosY != 0) && help==0)
+
+            if ((_ship.PosX != 0 || _ship.PosY != 0)|| help==0)
             {
                 help++;
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 2 } };    
+                return new List<BattleCommand> { new CmdShoot { ItemId = _ship.ItemId} };    
             }
+
+
+            if ((_ship2.PosX != 0 || _ship2.PosY != 0))
+            {
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship2.ItemId, TargetX = 20, TargetY = 20 } };
+            }
+
             if (_ship.PosX ==0 || _ship.PosY==0)
             {
                 return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 20, TargetY = 20 } };
@@ -46,6 +55,7 @@ namespace SomeNewProject
 
             return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 2 } };
         }
+
 
         public void GiveGameItemsToClient(List<GameItemDescriptor> gameItems)
         {
