@@ -170,7 +170,6 @@ C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleServer\bin\Debug\SpaceBattle_Se
 C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleServer\bin\Debug\GeriClient.dll
 C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleServer\bin\Debug\SomeNewProject.dll
 C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll
-C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleServer\bin\Debug\GeriClient.pdb
 C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleServer\bin\Debug\SomeNewProject.pdb
 C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleServer\bin\Debug\SpaceBattleCommon.pdb
 C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll.config
