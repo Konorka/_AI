@@ -47,3 +47,10 @@ H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleC
 H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.csproj.CoreCompileInputs.cache
 H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.dll
 H:\Új mappa\GeekDay_SpaceBattle_Public\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.pdb
+C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleCommon\bin\Debug\SpaceBattleCommon.dll.config
+C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleCommon\bin\Debug\SpaceBattleCommon.dll
+C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleCommon\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.csprojResolveAssemblyReference.cache
+C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.csproj.CoreCompileInputs.cache
+C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.dll
+C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleCommon\obj\Debug\SpaceBattleCommon.pdb

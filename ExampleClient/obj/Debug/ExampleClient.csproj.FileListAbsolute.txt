@@ -33,3 +33,12 @@ H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\ExampleClient.cs
 H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\ExampleClient.csproj.CoreCompileInputs.cache
 H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\GeriClient.dll
 H:\Új mappa\GeekDay_SpaceBattle_Public\ExampleClient\obj\Debug\GeriClient.pdb
+C:\Users\konor\Desktop\_AI_Master\_AI\ExampleClient\bin\Debug\GeriClient.dll
+C:\Users\konor\Desktop\_AI_Master\_AI\ExampleClient\bin\Debug\GeriClient.pdb
+C:\Users\konor\Desktop\_AI_Master\_AI\ExampleClient\bin\Debug\SpaceBattleCommon.dll
+C:\Users\konor\Desktop\_AI_Master\_AI\ExampleClient\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\konor\Desktop\_AI_Master\_AI\ExampleClient\bin\Debug\SpaceBattleCommon.dll.config
+C:\Users\konor\Desktop\_AI_Master\_AI\ExampleClient\obj\Debug\ExampleClient.csprojResolveAssemblyReference.cache
+C:\Users\konor\Desktop\_AI_Master\_AI\ExampleClient\obj\Debug\ExampleClient.csproj.CoreCompileInputs.cache
+C:\Users\konor\Desktop\_AI_Master\_AI\ExampleClient\obj\Debug\GeriClient.dll
+C:\Users\konor\Desktop\_AI_Master\_AI\ExampleClient\obj\Debug\GeriClient.pdb

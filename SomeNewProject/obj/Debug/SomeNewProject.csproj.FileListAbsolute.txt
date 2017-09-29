@@ -17,3 +17,12 @@ H:\GeekDay_SpaceBattle_Public\SomeNewProject\obj\Debug\SomeNewProject.csprojReso
 H:\GeekDay_SpaceBattle_Public\SomeNewProject\obj\Debug\SomeNewProject.csproj.CoreCompileInputs.cache
 H:\GeekDay_SpaceBattle_Public\SomeNewProject\obj\Debug\SomeNewProject.dll
 H:\GeekDay_SpaceBattle_Public\SomeNewProject\obj\Debug\SomeNewProject.pdb
+C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\bin\Debug\SomeNewProject.dll
+C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\bin\Debug\SomeNewProject.pdb
+C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\bin\Debug\SpaceBattleCommon.dll
+C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\bin\Debug\SpaceBattleCommon.dll.config
+C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\obj\Debug\SomeNewProject.csprojResolveAssemblyReference.cache
+C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\obj\Debug\SomeNewProject.csproj.CoreCompileInputs.cache
+C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\obj\Debug\SomeNewProject.dll
+C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\obj\Debug\SomeNewProject.pdb

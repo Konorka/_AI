@@ -10,9 +10,10 @@ namespace SomeNewProject
 {
     public class SomeAI : IBattleClient
     {
+        Random rng = new Random();
         GameItemDescriptor _ownPlanet;
         GameItemDescriptor _ship;
-        GameItemDescriptor _ship2;
+        bool _first = true;
 
         public string ClientName
         {
@@ -26,34 +27,37 @@ namespace SomeNewProject
 
         public List<BattleCommand> GetCommandsFromClient()
         {
-            
+
             if (_ownPlanet == null)
                 return new List<BattleCommand>();
             if (_ship == null)
                 return new List<BattleCommand> { new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 } };
-           
+
             //we have a unit to move with
-            int help = 0;
+            int help = rng.Next(0, 4);
 
-            if ((_ship.PosX != 0 || _ship.PosY != 0)|| help==0)
+
+            //if (_ship.PosX != 0 && _ship.PosY != 0)
+            //{
+            //    help+=10;
+            //    return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0+help, TargetY = 2+help } };
+            //}
+            //return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 2 } };
+
+
+            switch (help)
             {
-                help++;
-                return new List<BattleCommand> { new CmdShoot { ItemId = _ship.ItemId} };    
+                case 0:
+                    return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 0 } };
+                case 1:
+                    return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 39 } };
+                case 2:
+                    return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 39 } };
+                case 3:
+                    return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 0 } };
             }
 
-
-            if ((_ship2.PosX != 0 || _ship2.PosY != 0))
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship2.ItemId, TargetX = 20, TargetY = 20 } };
-            }
-
-            if (_ship.PosX ==0 || _ship.PosY==0)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 20, TargetY = 20 } };
-            }
-            
-
-            return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 2 } };
+            return new List<BattleCommand> { new CmdNop() };
         }
 
 
@@ -75,12 +79,35 @@ namespace SomeNewProject
 
         public void GiveMessageToClient(string msg)
         {
-            
+
         }
 
         public void GiveRemainingTimeToClient(int seconds)
         {
-           
+
         }
     }
 }
+//            if (_ship.PosX == 19 && _ship.PosY == 0)
+//            {
+//                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 19, TargetY = 19 } };
+//            }
+//            if (_ship.PosX == 19 && _ship.PosY == 19)
+//            {
+//                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 19 } };
+//            }
+//            if (_ship.PosX == 0 && _ship.PosY == 19)
+//            {
+//                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 0 } };
+//            }
+//            if(_ship.PosX == 0 && _ship.PosY == 0)
+//            {
+//                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 19, TargetY = 0 } };
+//            }
+//            if (_first)
+//            {
+//                _first = false;
+//                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 0 } };
+//            }
+//            return new List<BattleCommand> { new CmdNop() };
+//        }
