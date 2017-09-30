@@ -12,7 +12,10 @@ namespace SomeNewProject
     {
         Random rng = new Random();
         GameItemDescriptor _ownPlanet;
-        GameItemDescriptor _ship;
+        GameItemDescriptor _ship1;
+        GameItemDescriptor _military;
+        GameItemDescriptor _enemyPlanet;
+        int _nopCounter = 0;
         bool _first = true;
         
 
@@ -28,101 +31,129 @@ namespace SomeNewProject
 
         public List<BattleCommand> GetCommandsFromClient()
         {
+            int help=0;
+            var nlb = new List<BattleCommand>();
 
             if (_ownPlanet == null)
-                return new List<BattleCommand>();
-            if (_ship == null)
-                return new List<BattleCommand> { new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 } };
+                return nlb;
+
+            //if (_ship1 == null)
+            //    nlb.Add(new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 });
+
+            //else if (_nopCounter++ == 10) 
+            //{
+            //    nlb.Add(new CmdMove { ItemId = _ship1.ItemId, TargetX = rng.Next(0, 40), TargetY = rng.Next(0, 40) });
+            //    _nopCounter = 0;
+            //}
+            
+            //return nlb;
+
 
             //we have a unit to move with
-
-
+            if (_ship1 == null)
+                return new List<BattleCommand> { new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 } };
             //-----------------------------------------------------------ODA--------------------------------------------------------------//
 
-            if (_ship.PosX == 0 && _ship.PosY == 12)
+            if (_ship1.PosX == 0 && _ship1.PosY == 12)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 12 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 12 } };
             }
-            if (_ship.PosX == 39 && _ship.PosY == 12)
+            if (_ship1.PosX == 39 && _ship1.PosY == 12)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 15 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 16 } };
             }
-            if (_ship.PosX == 39 && _ship.PosY == 15)
+            if (_ship1.PosX == 39 && _ship1.PosY == 16)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 15 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 0, TargetY = 16 } };
             }
-            if (_ship.PosX == 0 && _ship.PosY == 15)
+            if (_ship1.PosX == 0 && _ship1.PosY == 16)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 18 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 0, TargetY = 20 } };
             }
-            if (_ship.PosX == 0 && _ship.PosY == 18)
+            if (_ship1.PosX == 0 && _ship1.PosY == 20)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 18 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 20 } };
             }
-            if (_ship.PosX == 39 && _ship.PosY == 18)
+            if (_ship1.PosX == 39 && _ship1.PosY == 20)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 25 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 24 } };
             }
-            if (_ship.PosX == 39 && _ship.PosY == 25)
+            if (_ship1.PosX == 39 && _ship1.PosY == 24)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 25 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 0, TargetY = 24 } };
             }
-            if (_ship.PosX == 0 && _ship.PosY == 25)
+            if (_ship1.PosX == 0 && _ship1.PosY == 24)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 28 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 0, TargetY = 28 } };
             }
-            if (_ship.PosX == 0 && _ship.PosY == 28)
+            if (_ship1.PosX == 0 && _ship1.PosY == 28)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 28 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 28 } };
             }
-            if (_ship.PosX == 39 && _ship.PosY == 28)
+            if (_ship1.PosX == 39 && _ship1.PosY == 28)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 20, TargetY = 36 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 32 } };
             }
+            if (_ship1.PosX == 39 && _ship1.PosY == 32)
+            {
+
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 20, TargetY = 36 } };
+            }
+
             //-------------------------------------------------------Vissza-----------------------------------------------------//
 
-            if (_ship.PosX == 20 && _ship.PosY == 36)
+            if (_ship1.PosX == 20 && _ship1.PosY == 36)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 3, TargetY = 31 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 2, TargetY = 31 } };
             }
-            if (_ship.PosX == 3 && _ship.PosY == 31)
+            if (_ship1.PosX == 2 && _ship1.PosY == 31)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 36, TargetY = 32 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 36, TargetY = 31 } };
             }
-            if (_ship.PosX == 36 && _ship.PosY == 32)
+            if (_ship1.PosX == 36 && _ship1.PosY == 31)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 36, TargetY = 24 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 36, TargetY = 25 } };
             }
-            if (_ship.PosX == 36 && _ship.PosY == 24)
+            if (_ship1.PosX == 36 && _ship1.PosY == 25)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 5, TargetY = 24 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 5, TargetY = 25 } };
             }
-            if (_ship.PosX == 5 && _ship.PosY == 24)
+            if (_ship1.PosX == 5 && _ship1.PosY == 25)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 5, TargetY = 19 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 5, TargetY = 19 } };
             }
-            if (_ship.PosX == 5 && _ship.PosY == 19)
+            if (_ship1.PosX == 5 && _ship1.PosY == 19)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 36, TargetY = 19 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 36, TargetY = 19 } };
             }
-            if (_ship.PosX == 36 && _ship.PosY == 19)
+            if (_ship1.PosX == 36 && _ship1.PosY == 19)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 36, TargetY = 13 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 36, TargetY = 13 } };
             }
-            if (_ship.PosX == 36 && _ship.PosY == 13)
+            if (_ship1.PosX == 36 && _ship1.PosY == 13)
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 5, TargetY = 13 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 5, TargetY = 13 } };
             }
-            if (_ship.PosX == 5 && _ship.PosY == 13)
+            if (_ship1.PosX == 5 && _ship1.PosY == 13)
             {
                 _first = true;
             }
-            
+
             if (_first)
             {
                 _first = false;
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 12 } };
+                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 0, TargetY = 12 } };
             }
+            if (_enemyPlanet == null)
+                return nlb;
+
+            if (_military == null)
+                nlb.Add(new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 1 });
+            else if (_military.PosX != _enemyPlanet.PosX && _military.PosY != _enemyPlanet.PosY)
+                nlb.Add(new CmdMove { ItemId = _military.ItemId, TargetX = _enemyPlanet.PosX, TargetY = _enemyPlanet.PosY });
+            else
+                nlb.Add(new CmdShoot { ItemId = _military.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 1, OtherItemId = _enemyPlanet.ItemId });
+            return nlb;
             return new List<BattleCommand> { new CmdNop() };
         }
 
@@ -145,14 +176,19 @@ namespace SomeNewProject
 
         public void GiveGameItemsToClient(List<GameItemDescriptor> gameItems)
         {
-            if (_ownPlanet == null)
-            {
-                _ownPlanet = gameItems.Find(x => x.PlayerName == ClientName); //find base planet
-            }
-            else
-            {
-                _ship = gameItems.Find(x => x.PlayerName == ClientName && x.ItemType == "Ship"); //find our (only) unit
-            }
+            //if (_ownPlanet == null)
+            //{
+            //    _ownPlanet = gameItems.Find(x => x.PlayerName == ClientName); //find base planet
+            //}
+            //else
+            //{
+            //    _ship1 = gameItems.Find(x => x.PlayerName == ClientName && x.ItemType == "Ship"); //find our (only) unit
+            //}
+
+            _ownPlanet = gameItems.First(x => x.PlayerName == ClientName); //find base planet
+            _enemyPlanet = gameItems.FirstOrDefault(x => x.PlayerName != ClientName && x.ItemType == "Planet");
+            _ship1 = gameItems.FirstOrDefault(x => x.PlayerName == ClientName && x.ItemType == "Ship" && x.NumberOfUnits == 1); //find our (only) unit
+            _military = gameItems.FirstOrDefault(x => x.PlayerName == ClientName && x.ItemType == "Ship" && x.NumberOfUnits > 1);
         }
 
         public void GiveMapSizeToClient(int sizeX, int sizeY)
@@ -170,26 +206,46 @@ namespace SomeNewProject
         }
     }
 }
-//            if (_ship.PosX == 19 && _ship.PosY == 0)
+
+//namespace SomeNewProject
+//{
+//    public class SomeAI : IBattleClient
+//    {
+//        static Random Rand = new Random();
+//        GameItemDescriptor _ownPlanet;
+//        GameItemDescriptor _scoot;
+//        GameItemDescriptor _military;
+//        GameItemDescriptor _enemyPlanet;
+//        int _nopCounter = 0;
+//        public List<BattleCommand> GetCommandsFromClient()
+//        {
+//            var cmds = new List<BattleCommand>();
+
+//            if (_ownPlanet == null)
+//                return cmds;
+//            if (_scoot == null)
+//                cmds.Add(new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 });
+//            else if (_nopCounter++ == 10)
 //            {
-//                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 19, TargetY = 19 } };
+//                cmds.Add(new CmdMove { ItemId = _scoot.ItemId, TargetX = Rand.Next(0, 40), TargetY = Rand.Next(0, 40) });
+//                _nopCounter = 0;
 //            }
-//            if (_ship.PosX == 19 && _ship.PosY == 19)
-//            {
-//                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 19 } };
-//            }
-//            if (_ship.PosX == 0 && _ship.PosY == 19)
-//            {
-//                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 0 } };
-//            }
-//            if(_ship.PosX == 0 && _ship.PosY == 0)
-//            {
-//                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 19, TargetY = 0 } };
-//            }
-//            if (_first)
-//            {
-//                _first = false;
-//                return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 0 } };
-//            }
-//            return new List<BattleCommand> { new CmdNop() };
+
+//            if (_enemyPlanet == null)
+//                return cmds;
+
+//            if (_military == null)
+//                cmds.Add(new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 1 });
+//            else if (_military.PosX != _enemyPlanet.PosX && _military.PosY != _enemyPlanet.PosY)
+//                cmds.Add(new CmdMove { ItemId = _military.ItemId, TargetX = _enemyPlanet.PosX, TargetY = _enemyPlanet.PosY });
+//            else
+//                cmds.Add(new CmdShoot { ItemId = _military.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 1, OtherItemId = _enemyPlanet.ItemId });
+//            return cmds;
+//        }
+//        public void GiveGameItemsToClient(List<GameItemDescriptor> gameItems)
+//        {
+//            _ownPlanet = gameItems.First(x => x.PlayerName == ClientName); //find base planet
+//            _enemyPlanet = gameItems.FirstOrDefault(x => x.PlayerName != ClientName && x.ItemType == "Planet");
+//            _scoot = gameItems.FirstOrDefault(x => x.PlayerName == ClientName && x.ItemType == "Ship" && x.NumberOfUnits == 1); //find our (only) unit
+//            _military = gameItems.FirstOrDefault(x => x.PlayerName == ClientName && x.ItemType == "Ship" && x.NumberOfUnits > 1);
 //        }
