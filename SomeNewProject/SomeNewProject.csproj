@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Scout.cs" />
     <Compile Include="Search.cs" />
     <Compile Include="SomeAI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

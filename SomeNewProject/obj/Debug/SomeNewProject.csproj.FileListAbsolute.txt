@@ -26,3 +26,12 @@ C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\obj\Debug\SomeNewProject.cs
 C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\obj\Debug\SomeNewProject.csproj.CoreCompileInputs.cache
 C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\obj\Debug\SomeNewProject.dll
 C:\Users\konor\Desktop\_AI_Master\_AI\SomeNewProject\obj\Debug\SomeNewProject.pdb
+C:\Users\konor\Desktop\AI\_AI\SomeNewProject\bin\Debug\SomeNewProject.dll
+C:\Users\konor\Desktop\AI\_AI\SomeNewProject\bin\Debug\SomeNewProject.pdb
+C:\Users\konor\Desktop\AI\_AI\SomeNewProject\bin\Debug\SpaceBattleCommon.dll
+C:\Users\konor\Desktop\AI\_AI\SomeNewProject\bin\Debug\SpaceBattleCommon.pdb
+C:\Users\konor\Desktop\AI\_AI\SomeNewProject\bin\Debug\SpaceBattleCommon.dll.config
+C:\Users\konor\Desktop\AI\_AI\SomeNewProject\obj\Debug\SomeNewProject.csprojResolveAssemblyReference.cache
+C:\Users\konor\Desktop\AI\_AI\SomeNewProject\obj\Debug\SomeNewProject.csproj.CoreCompileInputs.cache
+C:\Users\konor\Desktop\AI\_AI\SomeNewProject\obj\Debug\SomeNewProject.dll
+C:\Users\konor\Desktop\AI\_AI\SomeNewProject\obj\Debug\SomeNewProject.pdb

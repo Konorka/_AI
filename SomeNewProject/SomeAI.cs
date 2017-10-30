@@ -146,13 +146,17 @@ namespace SomeNewProject
             }
             if (_enemyPlanet == null)
                 return nlb;
+            //-----------------------------------------------MOZGATÁS VÉGE------------------------------------------------
 
             if (_military == null)
                 nlb.Add(new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 1 });
+
             else if (_military.PosX != _enemyPlanet.PosX && _military.PosY != _enemyPlanet.PosY)
                 nlb.Add(new CmdMove { ItemId = _military.ItemId, TargetX = _enemyPlanet.PosX, TargetY = _enemyPlanet.PosY });
+
             else
                 nlb.Add(new CmdShoot { ItemId = _military.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 1, OtherItemId = _enemyPlanet.ItemId });
+
             return nlb;
             return new List<BattleCommand> { new CmdNop() };
         }
@@ -176,6 +180,7 @@ namespace SomeNewProject
 
         public void GiveGameItemsToClient(List<GameItemDescriptor> gameItems)
         {
+
             //if (_ownPlanet == null)
             //{
             //    _ownPlanet = gameItems.Find(x => x.PlayerName == ClientName); //find base planet
