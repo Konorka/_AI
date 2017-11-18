@@ -21,6 +21,7 @@ namespace SomeNewProject
         List<int> RightScoutList = new List<int>();
         bool BnF = true;
         bool isBack = true;
+        bool doSomethingElse=false;
         int i = 0;
         int j = 1;
         public void AddScoutLists()
@@ -49,71 +50,69 @@ namespace SomeNewProject
         {
             AddScoutLists();
 
-
-
-            //if (_ownPlanet == null)
-            //    return nlb;
-
-            //if (_scoutShip == null)
-            //    nlb.Add(new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 });
-
-            //else if (_nopCounter++ == 10)
-            //{
-            //    nlb.Add(new CmdMove { ItemId = _ship1.ItemId, TargetX = rng.Next(0, 40), TargetY = rng.Next(0, 40) });
-            //    _nopCounter = 0;
-            //}
-
-           // return nlb;
-
-            //we have a unit to move with
             if (_scoutShip == null)
                 return new List<BattleCommand> { new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 } };
-            
+
             //-----------------------------------------------------------ODA--------------------------------------------------------------//     
-            if (BnF==true)
+            if (doSomethingElse == false)
             {
-                while (i < LeftScoutList.Count-2)
+                if (BnF == true)
                 {
-                    if (_scoutShip.PosX == LeftScoutList[i] && _scoutShip.PosY == LeftScoutList[j])
+                    while (i < LeftScoutList.Count - 2)
                     {
-                        j += 2; i += 2;
-                        _scout(_scoutShip.ItemId, LeftScoutList[i], LeftScoutList[j]);
+                        if (_scoutShip.PosX == LeftScoutList[i] && _scoutShip.PosY == LeftScoutList[j])
+                        {
+                            j += 2; i += 2;
+                            _scout(_scoutShip.ItemId, LeftScoutList[i], LeftScoutList[j]);
+                        }
+                        doSomethingElse = true;
+                        return nlb;
                     }
-
-                    return nlb;
+                    BnF = false;
                 }
-                BnF = false;
-            }else
-            //-----------------------------------------------------------VISSZA--------------------------------------------------------------//     
-            {
-                if (isBack==true)
+                else
+                //-----------------------------------------------------------VISSZA--------------------------------------------------------------//     
                 {
-                    i = LeftScoutList.Count-2;
-                    j = LeftScoutList.Count-1;
-                    isBack = false;
-                }
-                while (i > 1)
-                {
-                    if (_scoutShip.PosX == LeftScoutList[i] && _scoutShip.PosY == LeftScoutList[j])
+                    if (isBack == true)
                     {
-                        j -= 2; i -= 2;
-                        _scout(_scoutShip.ItemId, LeftScoutList[i], LeftScoutList[j]);
+                        i = LeftScoutList.Count - 2;
+                        j = LeftScoutList.Count - 1;
+                        isBack = false;
                     }
-                    return nlb;
+                    while (i > 1)
+                    {
+                        if (_scoutShip.PosX == LeftScoutList[i] && _scoutShip.PosY == LeftScoutList[j])
+                        {
+                            j -= 2; i -= 2;
+                            _scout(_scoutShip.ItemId, LeftScoutList[i], LeftScoutList[j]);
+                        }
+                        doSomethingElse = true;
+                        return nlb;
+                    }
+                    BnF = true;
                 }
-                BnF = true;
             }
-
-            //-----------------------------------------------MOZGATÁS VÉGE------------------------------------------------
-            if (_military == null)
-                nlb.Add(new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 1 });
-
-            else if (_military.PosX != _enemyPlanet.PosX && _military.PosY != _enemyPlanet.PosY)
-                nlb.Add(new CmdMove { ItemId = _military.ItemId, TargetX = _enemyPlanet.PosX, TargetY = _enemyPlanet.PosY });
-
             else
-                nlb.Add(new CmdShoot { ItemId = _military.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 1, OtherItemId = _enemyPlanet.ItemId });
+            {
 
+                doSomethingElse = false;
+                if (_enemyPlanet == null)
+                {
+                    doSomethingElse = false;
+                    return nlb;
+                }
+                //-----------------------------------------------MOZGATÁS VÉGE------------------------------------------------
+                if (_military == null)
+                    nlb.Add(new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 2 });
+
+                else if (_military.PosX != _enemyPlanet.PosX && _military.PosY != _enemyPlanet.PosY)
+                    nlb.Add(new CmdMove { ItemId = _military.ItemId, TargetX = _enemyPlanet.PosX, TargetY = _enemyPlanet.PosY });
+
+                else
+                    nlb.Add(new CmdShoot { ItemId = _military.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 2, OtherItemId = _enemyPlanet.ItemId });
+
+
+            }
             return new List<BattleCommand> { new CmdNop() };
         }
 
