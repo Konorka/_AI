@@ -183,7 +183,6 @@ C:\Users\konor\Desktop\_AI_Master\_AI\SpaceBattleServer\obj\Debug\SpaceBattle_Se
 C:\Users\konor\Desktop\AI\_AI\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe.config
 C:\Users\konor\Desktop\AI\_AI\SpaceBattleServer\bin\Debug\SpaceBattle_Server.exe
 C:\Users\konor\Desktop\AI\_AI\SpaceBattleServer\bin\Debug\SpaceBattle_Server.pdb
-C:\Users\konor\Desktop\AI\_AI\SpaceBattleServer\bin\Debug\GeriClient.dll
 C:\Users\konor\Desktop\AI\_AI\SpaceBattleServer\bin\Debug\SomeNewProject.dll
 C:\Users\konor\Desktop\AI\_AI\SpaceBattleServer\bin\Debug\SpaceBattleCommon.dll
 C:\Users\konor\Desktop\AI\_AI\SpaceBattleServer\bin\Debug\SomeNewProject.pdb

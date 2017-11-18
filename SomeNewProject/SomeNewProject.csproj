@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseModel.cs" />
     <Compile Include="Scout.cs" />
     <Compile Include="Search.cs" />
     <Compile Include="SomeAI.cs" />

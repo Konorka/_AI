@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SpaceBattle.Common;
 using System.Drawing;
+using System.Collections.ObjectModel;
 
 namespace SomeNewProject
 {
@@ -12,12 +13,27 @@ namespace SomeNewProject
     {
         Random rng = new Random();
         GameItemDescriptor _ownPlanet;
-        GameItemDescriptor _ship1;
+        GameItemDescriptor _scoutShip;
         GameItemDescriptor _military;
         GameItemDescriptor _enemyPlanet;
-        int _nopCounter = 0;
-        bool _first = true;
-        
+        Search search = new Search();
+        List<int> LeftScoutList = new List<int>();
+        List<int> RightScoutList = new List<int>();
+        bool BnF = true;
+        bool isBack = true;
+        int i = 0;
+        int j = 1;
+        public void AddScoutLists()
+        {
+            LeftScoutList = search.GetScoutLeftList();  
+            RightScoutList = search.GetScoutRightList();
+        }
+
+        public void _scout(int id, float tX, float tY)
+        {
+           nlb.Add( new CmdMove { ItemId = id, TargetX = tX, TargetY = tY }); 
+        }List<BattleCommand> nlb = new List<BattleCommand>();
+
 
         public string ClientName
         {
@@ -31,123 +47,64 @@ namespace SomeNewProject
 
         public List<BattleCommand> GetCommandsFromClient()
         {
-            int help=0;
-            var nlb = new List<BattleCommand>();
+            AddScoutLists();
 
-            if (_ownPlanet == null)
-                return nlb;
 
-            //if (_ship1 == null)
+
+            //if (_ownPlanet == null)
+            //    return nlb;
+
+            //if (_scoutShip == null)
             //    nlb.Add(new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 });
 
-            //else if (_nopCounter++ == 10) 
+            //else if (_nopCounter++ == 10)
             //{
             //    nlb.Add(new CmdMove { ItemId = _ship1.ItemId, TargetX = rng.Next(0, 40), TargetY = rng.Next(0, 40) });
             //    _nopCounter = 0;
             //}
-            
-            //return nlb;
 
+           // return nlb;
 
             //we have a unit to move with
-            if (_ship1 == null)
+            if (_scoutShip == null)
                 return new List<BattleCommand> { new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = 1 } };
-            //-----------------------------------------------------------ODA--------------------------------------------------------------//
+            
+            //-----------------------------------------------------------ODA--------------------------------------------------------------//     
+            if (BnF==true)
+            {
+                while (i < LeftScoutList.Count-2)
+                {
+                    if (_scoutShip.PosX == LeftScoutList[i] && _scoutShip.PosY == LeftScoutList[j])
+                    {
+                        j += 2; i += 2;
+                        _scout(_scoutShip.ItemId, LeftScoutList[i], LeftScoutList[j]);
+                    }
 
-            if (_ship1.PosX == 0 && _ship1.PosY == 12)
+                    return nlb;
+                }
+                BnF = false;
+            }else
+            //-----------------------------------------------------------VISSZA--------------------------------------------------------------//     
             {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 12 } };
-            }
-            if (_ship1.PosX == 39 && _ship1.PosY == 12)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 16 } };
-            }
-            if (_ship1.PosX == 39 && _ship1.PosY == 16)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 0, TargetY = 16 } };
-            }
-            if (_ship1.PosX == 0 && _ship1.PosY == 16)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 0, TargetY = 20 } };
-            }
-            if (_ship1.PosX == 0 && _ship1.PosY == 20)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 20 } };
-            }
-            if (_ship1.PosX == 39 && _ship1.PosY == 20)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 24 } };
-            }
-            if (_ship1.PosX == 39 && _ship1.PosY == 24)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 0, TargetY = 24 } };
-            }
-            if (_ship1.PosX == 0 && _ship1.PosY == 24)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 0, TargetY = 28 } };
-            }
-            if (_ship1.PosX == 0 && _ship1.PosY == 28)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 28 } };
-            }
-            if (_ship1.PosX == 39 && _ship1.PosY == 28)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 39, TargetY = 32 } };
-            }
-            if (_ship1.PosX == 39 && _ship1.PosY == 32)
-            {
-
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 20, TargetY = 36 } };
+                if (isBack==true)
+                {
+                    i = LeftScoutList.Count-2;
+                    j = LeftScoutList.Count-1;
+                    isBack = false;
+                }
+                while (i > 1)
+                {
+                    if (_scoutShip.PosX == LeftScoutList[i] && _scoutShip.PosY == LeftScoutList[j])
+                    {
+                        j -= 2; i -= 2;
+                        _scout(_scoutShip.ItemId, LeftScoutList[i], LeftScoutList[j]);
+                    }
+                    return nlb;
+                }
+                BnF = true;
             }
 
-            //-------------------------------------------------------Vissza-----------------------------------------------------//
-
-            if (_ship1.PosX == 20 && _ship1.PosY == 36)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 2, TargetY = 31 } };
-            }
-            if (_ship1.PosX == 2 && _ship1.PosY == 31)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 36, TargetY = 31 } };
-            }
-            if (_ship1.PosX == 36 && _ship1.PosY == 31)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 36, TargetY = 25 } };
-            }
-            if (_ship1.PosX == 36 && _ship1.PosY == 25)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 5, TargetY = 25 } };
-            }
-            if (_ship1.PosX == 5 && _ship1.PosY == 25)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 5, TargetY = 19 } };
-            }
-            if (_ship1.PosX == 5 && _ship1.PosY == 19)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 36, TargetY = 19 } };
-            }
-            if (_ship1.PosX == 36 && _ship1.PosY == 19)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 36, TargetY = 13 } };
-            }
-            if (_ship1.PosX == 36 && _ship1.PosY == 13)
-            {
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 5, TargetY = 13 } };
-            }
-            if (_ship1.PosX == 5 && _ship1.PosY == 13)
-            {
-                _first = true;
-            }
-
-            if (_first)
-            {
-                _first = false;
-                return new List<BattleCommand> { new CmdMove { ItemId = _ship1.ItemId, TargetX = 0, TargetY = 12 } };
-            }
-            if (_enemyPlanet == null)
-                return nlb;
             //-----------------------------------------------MOZGATÁS VÉGE------------------------------------------------
-
             if (_military == null)
                 nlb.Add(new CmdSplit { ItemId = _ownPlanet.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 1 });
 
@@ -157,42 +114,28 @@ namespace SomeNewProject
             else
                 nlb.Add(new CmdShoot { ItemId = _military.ItemId, NumberOfUnits = _enemyPlanet.NumberOfUnits + 1, OtherItemId = _enemyPlanet.ItemId });
 
-            return nlb;
             return new List<BattleCommand> { new CmdNop() };
         }
 
 
-        //    int help = rng.Next(0, 4);
-        //    switch (help)
-        //    {
-        //        case 1:
-        //            return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 0 } };
-        //        case 2:
-        //            return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 39 } };
-        //        case 3:
-        //            return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 0, TargetY = 39 } };
-        //        case 4:
-        //            return new List<BattleCommand> { new CmdMove { ItemId = _ship.ItemId, TargetX = 39, TargetY = 0 } };
-        //    }
-        //    return new List<BattleCommand> { new CmdNop() };
-        //}
+       
 
 
         public void GiveGameItemsToClient(List<GameItemDescriptor> gameItems)
         {
 
-            //if (_ownPlanet == null)
-            //{
-            //    _ownPlanet = gameItems.Find(x => x.PlayerName == ClientName); //find base planet
-            //}
-            //else
-            //{
-            //    _ship1 = gameItems.Find(x => x.PlayerName == ClientName && x.ItemType == "Ship"); //find our (only) unit
-            //}
+            if (_ownPlanet == null)
+            {
+                _ownPlanet = gameItems.Find(x => x.PlayerName == ClientName); //find base planet
+            }
+            else
+            {
+                _scoutShip = gameItems.Find(x => x.PlayerName == ClientName && x.ItemType == "Ship"); //find our (only) unit
+            }
 
             _ownPlanet = gameItems.First(x => x.PlayerName == ClientName); //find base planet
             _enemyPlanet = gameItems.FirstOrDefault(x => x.PlayerName != ClientName && x.ItemType == "Planet");
-            _ship1 = gameItems.FirstOrDefault(x => x.PlayerName == ClientName && x.ItemType == "Ship" && x.NumberOfUnits == 1); //find our (only) unit
+            _scoutShip = gameItems.FirstOrDefault(x => x.PlayerName == ClientName && x.ItemType == "Ship" && x.NumberOfUnits == 1); //find our (only) unit
             _military = gameItems.FirstOrDefault(x => x.PlayerName == ClientName && x.ItemType == "Ship" && x.NumberOfUnits > 1);
         }
 

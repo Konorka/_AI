@@ -7,11 +7,14 @@ using System.Threading.Tasks;
 
 namespace SomeNewProject
 {
+
     public class Scout
     {
         int id { get; set; }
         float tX { get; set; }
         float tY { get; set; }
+
+
 
         public Scout(GameItemDescriptor scout)
         {
@@ -19,5 +22,7 @@ namespace SomeNewProject
             tX = scout.PosX;
             tY = scout.PosY;
         }
+
     }
 }
+
